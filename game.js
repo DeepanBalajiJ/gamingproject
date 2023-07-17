@@ -13,11 +13,11 @@ submitButton.onclick = () => {
     }
     else if(input > randomNumber)
     {
-        msg = "Oops! Your guess is too high!"
+        msg = "Your guess is too high"
     }
     else if(input < randomNumber)
     {
-        msg = "Oops! Your guess is too low!"
+        msg = "Your guess is too low"
     }
     else if(lives == 0)
     {
